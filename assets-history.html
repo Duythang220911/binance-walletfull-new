@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tài sản - Lịch sử giao dịch</title>
+    <link rel="stylesheet" href="assets-history.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+
+    <div class="app-container">
+        <!-- Header -->
+        <div class="header">
+<!--         
+              <i class="fa-solid fa-arrow-left icon-back"
+   onclick="window.location.href='wallet.html'"></i> -->
+  <img
+  src="img/images/arrow_left.png" class="icon-back" onclick="window.location.href='wallet.html'" alt="back" />
+            <div class="header-center">
+                <div class="title-with-arrow">
+                    <span class="main-title">Tài sản</span>
+                    <i class="fa-solid fa-caret-down"></i>
+                </div>
+                <div class="sub-title">Tổng thể</div>
+            </div>
+          <img
+    src="img/images/muiten.png" class="icon-history" alt="history"/>
+        </div>
+
+        <!-- List Giao dịch -->
+        <div class="transaction-list">
+<!-- Item 1 (P2P - Bán) - Click vào đây để sang trang chi tiết -->
+            <div class="transaction-item" data-href="p2p-detail.html">
+                <div class="item-left">
+                    <div class="item-name">P2P</div>
+                    <div class="item-desc">Bán</div>
+                    <div class="item-time">2026-06-07 23:32:24</div>
+                </div>
+                <div class="item-right">
+                    <div class="amount sell">-423 USDT</div>
+                    <div class="fiat-amount">+11,137,082 VND</div>
+                    <div class="status-done">Đã hoàn tất</div>
+                </div>
+            </div>
+            
+        <!-- Item 3 (Chuyển) -->
+            <div class="transaction-item">
+                <div class="item-left">
+                    <div class="item-name">Chuyển</div>
+                    <div class="item-time">2026-06-07 19:52:37</div>
+                </div>
+                <div class="item-right">
+                    <div class="amount transfer">549 USDT</div>
+                    <div class="transfer-path">Giao ngay > Nạp tiền</div>
+                </div>
+            </div>
+      <div class="transaction-item" data-href="withdraw-money.html">
+                <div class="item-left">
+                    <div class="item-name">Rút</div>
+                    <!-- <div class="item-desc">Bán</div> -->
+                    <div class="item-time">2026-06-07 04:51:40</div>
+                </div>
+                <div class="item-right" >
+                    <div class="amount sell">-549.85 USDT</div>
+                    <!-- <div class="fiat-amount">+5,000,000 VND</div> -->
+                    <div class="status-done">Đã hoàn tất</div>
+                </div>
+            </div>
+
+                <!-- Item 4 (Nap) -->
+             <div class="transaction-item">
+                <div class="item-left">
+                    <div class="item-name">Nạp</div>
+                    <!-- <div class="item-desc">Nhận tiền mã hóa</div> -->
+                    <div class="item-time">2026-06-06 14:37:51</div>
+                </div>
+                <div class="item-right">
+                    <div class="amount receive">+612 USDT</div>
+                    <div class="user-id">Đã hoàn tất</div>
+                </div>
+            </div>
+           
+            <div class="transaction-item" data-href="withdraw-money.html">
+                <div class="item-left">
+                    <div class="item-name">Rút</div>
+                    <!-- <div class="item-desc">Bán</div> -->
+                    <div class="item-time">2026-06-05 04:21:42 </div>
+                </div>
+                <div class="item-right" >
+                    <div class="amount sell">-299.85 USDT</div>
+                    <!-- <div class="fiat-amount">+5,000,000 VND</div> -->
+                    <div class="status-done">Đã hoàn tất</div>
+                </div>
+            </div>
+
+            <div class="transaction-item" data-href="p2p-detail.html">
+                <div class="item-left">
+                    <div class="item-name">P2P</div>
+                    <div class="item-desc">Bán</div>
+                    <div class="item-time">2026-06-05 02:13:25</div>
+                </div>
+                <div class="item-right">
+                    <div class="amount sell">-377 USDT</div>
+                    <div class="fiat-amount">+9,925,958 VND</div>
+                    <div class="status-done">Đã hoàn tất</div>
+                </div>
+            </div>
+             
+               <div class="transaction-item" data-href="recharge.html">
+                <div class="item-left">
+                    <div class="item-name">Nạp</div>
+                    <!-- <div class="item-desc">Nhận tiền mã hóa</div> -->
+                    <div class="item-time">2026-06-04 13:42:11</div>
+                </div>
+                <div class="item-right">
+                    <div class="amount receive">+577 USDT</div>
+                    <div class="user-id">Đã hoàn tất</div>
+                </div>
+            </div>
+                  <!-- Item 3 (Rut) -->
+              <div class="transaction-item" data-href="withdraw-money.html">
+                <div class="item-left">
+                    <div class="item-name">Rút</div>
+                    <!-- <div class="item-desc">Bán</div> -->
+                    <div class="item-time">2026-06-04 04:51:05 </div>
+                </div>
+                <div class="item-right" >
+                    <div class="amount sell">-167.85 USDT</div>
+                    <!-- <div class="fiat-amount">+5,000,000 VND</div> -->
+                    <div class="status-done">Đã hoàn tất</div>
+                </div>
+            </div>
+                
+                <div class="transaction-item" data-href="withdraw-money.html">
+                <div class="item-left">
+                    <div class="item-name">Rút</div>
+                    <!-- <div class="item-desc">Bán</div> -->
+                    <div class="item-time">2026-06-03 04:26:32</div>
+                </div>
+                <div class="item-right" >
+                    <div class="amount sell">-249.85 USDT</div>
+                    <!-- <div class="fiat-amount">+5,000,000 VND</div> -->
+                    <div class="status-done">Đã hoàn tất</div>
+                </div>
+            </div>
+                <div class="transaction-item" data-href="withdraw-money.html">
+                <div class="item-left">
+                    <div class="item-name">Rút</div>
+                    <!-- <div class="item-desc">Bán</div> -->
+                    <div class="item-time">2026-05-28 11:05:42</div>
+                </div>
+                <div class="item-right" >
+                    <div class="amount sell">-379 USDT</div>
+                    <!-- <div class="fiat-amount">+5,000,000 VND</div> -->
+                    <div class="status-done">Đã hoàn tất</div>
+                </div>
+            </div>
+                <div class="transaction-item" data-href="withdraw-money.html">
+                <div class="item-left">
+                    <div class="item-name">Rút</div>
+                    <!-- <div class="item-desc">Bán</div> -->
+                    <div class="item-time">2026-05-26 09:34:07</div>
+                </div>
+                <div class="item-right" >
+                    <div class="amount sell">-124 USDT</div>
+                    <!-- <div class="fiat-amount">+5,000,000 VND</div> -->
+                    <div class="status-done">Đã hoàn tất</div>
+                </div>
+            </div>
+                <div class="transaction-item" data-href="withdraw-money.html">
+                <div class="item-left">
+                    <div class="item-name">Rút</div>
+                    <!-- <div class="item-desc">Bán</div> -->
+                    <div class="item-time">2026-05-21 20:09:18</div>
+                </div>
+                <div class="item-right" >
+                    <div class="amount sell">-127 USDT</div>
+                    <!-- <div class="fiat-amount">+5,000,000 VND</div> -->
+                    <div class="status-done">Đã hoàn tất</div>
+                </div>
+            </div>
+                <div class="transaction-item" data-href="withdraw-money.html">
+                <div class="item-left">
+                    <div class="item-name">Rút</div>
+                    <!-- <div class="item-desc">Bán</div> -->
+                    <div class="item-time">2026-05-14 17:20:42 </div>
+                </div>
+                <div class="item-right" >
+                    <div class="amount sell">-56 USDT</div>
+                    <!-- <div class="fiat-amount">+5,000,000 VND</div> -->
+                    <div class="status-done">Đã hoàn tất</div>
+                </div>
+            </div>
+                <div class="transaction-item" data-href="withdraw-money.html">
+                <div class="item-left">
+                    <div class="item-name">Rút</div>
+                    <!-- <div class="item-desc">Bán</div> -->
+                    <div class="item-time">2026-05-13 01:51:27 </div>
+                </div>
+                <div class="item-right" >
+                    <div class="amount sell">-249.5 USDT</div>
+                    <!-- <div class="fiat-amount">+5,000,000 VND</div> -->
+                    <div class="status-done">Đã hoàn tất</div>
+                </div>
+            </div>
+            <div class="transaction-item" data-href="withdraw-money.html">
+                <div class="item-left">
+                    <div class="item-name">Rút</div>
+                    <!-- <div class="item-desc">Bán</div> -->
+                    <div class="item-time">2026-05-10 13:35:19</div>
+                </div>
+                <div class="item-right" >
+                    <div class="amount sell">-176.9 USDT</div>
+                    <!-- <div class="fiat-amount">+5,000,000 VND</div> -->
+                    <div class="status-done">Đã hoàn tất</div>
+                </div>
+            </div>
+            <div class="transaction-item" data-href="withdraw-money.html">
+                <div class="item-left">
+                    <div class="item-name">Rút</div>
+                    <!-- <div class="item-desc">Bán</div> -->
+                    <div class="item-time">2026-05-08 16:38:26</div>
+                </div>
+                <div class="item-right" >
+                    <div class="amount sell">-300 USDT</div>
+                    <!-- <div class="fiat-amount">+5,000,000 VND</div> -->
+                    <div class="status-done">Đã hoàn tất</div>
+                </div>
+            </div>
+            <div class="transaction-item" data-href="withdraw-money.html">
+                <div class="item-left">
+                    <div class="item-name">Rút</div>
+                    <!-- <div class="item-desc">Bán</div> -->
+                    <div class="item-time">2026-05-05 15:51:27</div>
+                </div>
+                <div class="item-right" >
+                    <div class="amount sell">-100 USDT</div>
+                    <!-- <div class="fiat-amount">+5,000,000 VND</div> -->
+                    <div class="status-done">Đã hoàn tất</div>
+                </div>
+            </div>
+            <div class="transaction-item" data-href="withdraw-money.html">
+                <div class="item-left">
+                    <div class="item-name">Rút</div>
+                    <!-- <div class="item-desc">Bán</div> -->
+                    <div class="item-time">2026-05-04 15:42:51</div>
+                </div>
+                <div class="item-right" >
+                    <div class="amount sell">-130 USDT</div>
+                    <!-- <div class="fiat-amount">+5,000,000 VND</div> -->
+                    <div class="status-done">Đã hoàn tất</div>
+                </div>
+            </div>
+            <div class="transaction-item" data-href="withdraw-money.html">
+                <div class="item-left">
+                    <div class="item-name">Rút</div>
+                    <!-- <div class="item-desc">Bán</div> -->
+                    <div class="item-time">2026-05-03 17:48:12</div>
+                </div>
+                <div class="item-right" >
+                    <div class="amount sell">-110 USDT</div>
+                    <!-- <div class="fiat-amount">+5,000,000 VND</div> -->
+                    <div class="status-done">Đã hoàn tất</div>
+                </div>
+            </div>
+            
+
+            <!-- Item 3 (Pay) -->
+            <!-- Item 4 (Chuyển) -->
+             <div class="transaction-item">
+                <div class="item-left">
+                    <div class="item-name">Nạp</div>
+                    <!-- <div class="item-desc">Nhận tiền mã hóa</div> -->
+                    <div class="item-time">2026-04-22 17:41:57</div>
+                </div>
+                <div class="item-right">
+                    <div class="amount receive">+94.98 USDT</div>
+                    <div class="user-id">Đã hoàn tất</div>
+                </div>
+            </div>
+               <div class="transaction-item" data-href="p2p-detail.html">
+                <div class="item-left">
+                    <div class="item-name">P2P</div>
+                    <div class="item-desc">Bán</div>
+                    <div class="item-time">2026-04-26 01:21:31</div>
+                </div>
+                <div class="item-right">
+                    <div class="amount sell">-186,79 USDT</div>
+                    <div class="fiat-amount">+5,000,000 VND</div>
+                    <div class="status-done">Đã hoàn tất</div>
+                </div>
+                
+            </div>
+ <div class="transaction-item">
+                <div class="item-left">
+                    <div class="item-name">Nạp</div>
+                    <!-- <div class="item-desc">Nhận tiền mã hóa</div> -->
+                    <div class="item-time">2026-04-22 17:41:57</div>
+                </div>
+                <div class="item-right">
+                    <div class="amount receive">+94.98 USDT</div>
+                    <div class="user-id">Đã hoàn tất</div>
+                </div>
+            </div>
+               <div class="transaction-item" data-href="p2p-detail.html">
+                <div class="item-left">
+                    <div class="item-name">P2P</div>
+                    <div class="item-desc">Bán</div>
+                    <div class="item-time">2026-04-26 01:21:31</div>
+                </div>
+                <div class="item-right">
+                    <div class="amount sell">-186,79 USDT</div>
+                    <div class="fiat-amount">+5,000,000 VND</div>
+                    <div class="status-done">Đã hoàn tất</div>
+                </div>
+        </div>
+    </div>
+<script src="assets-history.js"></script>
+</body>
+</html>
